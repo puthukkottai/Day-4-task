@@ -1,0 +1,6 @@
+let obj1 = { name: "person 1",age: 5};
+    obj2 = {age: 5,name: "person1" };
+
+let jsoncomp1 - json.stringify(obj1.age),
+    jsoncomp2 - json.stringify(obj2.age),
+console.log(jsoncomp1==jsoncomp2);
